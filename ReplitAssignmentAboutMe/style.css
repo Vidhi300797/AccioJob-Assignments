@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Source+Sans+Pro:wght@300&display=swap');
+    
+.container{
+    display: grid;
+    margin: 10px;
+    height: 550px;
+    min-width: 1280px;
+    box-shadow: 1px 5px 10px grey;
+    grid-template-columns: 50% 50%;
+}
+
+.section1{
+    padding: 20px 10px;
+}
+
+
+.section1-sub1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.personal-details{
+    width: 60%;
+    line-height: 1.5em;
+    
+}
+
+.personal-details > p {
+    margin: 5px;
+}
+
+
+.information > p {
+    font-size: 25px;
+    padding: 5px;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+    font-family: 'Abel', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 2px;
+}
+
+h1::after{
+   content: "";
+   display: block;
+   width: 90px;
+   padding-top: 3px;
+   border-bottom: 3px solid #3a16da;
+
+}
+
+.section1-sub2{
+    margin: 2px;
+}
+
+.progressbar > p {
+    font-size: 10px;
+    
+}
+
+progress{
+    width:100%;
+    border-radius: 0px;
+    height: 10px;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: rgb(37, 37, 180);
+}
+
+
+progress[value]::-webkit-progress-bar {
+    background-color: rgb(180, 215, 255);
+}
+
+.view-flex {
+    display: flex;
+    
+}
+
+.justify-btw {
+    justify-content: space-between;
+    
+}
+
+.bor-check {
+    /* border: brown 1px solid; */
+}
+
+.align-item-bottom {
+    align-items: flex-end;
+    margin-top: auto;
+    height: 40px;
+    text-align: end;
+}
+
+.img-height {
+    /* width: 40px;
+    height: 40px; */
+}
+
+.skill-text {
+    height: 100%;
+    margin: 0px;
+    margin-top: auto !important;
+    display: flex;
+    align-items: flex-end;
+}
