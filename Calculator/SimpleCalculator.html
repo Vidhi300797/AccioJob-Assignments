@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="SimpleCalculator.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="display"></div>
+        <div class="buttons">
+            <div class="button" id="grey" onclick="clearxyz()">C</div>
+            <div class="button" id="grey" onclick="clickingxyz('/')">/</div>
+            <div class="button" id="grey" onclick="clickingxyz('*')">*</div>
+            <div class="button" id="blue" onclick="backxyz()">&larr;</div>
+
+            <div class="button" onclick="clickingxyz('7')">7</div>
+            <div class="button" onclick="clickingxyz('8')">8</div>
+            <div class="button" onclick="clickingxyz('9')">9</div>
+            <div class="button" id="blue" onclick="clickingxyz('-')">-</div>
+
+            <div class="button" onclick="clickingxyz('4')">4</div>
+            <div class="button" onclick="clickingxyz('5')">5</div>
+            <div class="button" onclick="clickingxyz('6')">6</div>
+            <div class="button" id="blue" onclick="clickingxyz('+')">+</div>
+
+            <div class="button" onclick="clickingxyz('1')">1</div>
+            <div class="button" onclick="clickingxyz('2')">2</div>
+            <div class="button" onclick="clickingxyz('3')">3</div>
+            <div class="button" id="blue" onclick="clickingxyz('.')">.</div>
+
+            <div class="button" onclick="clickingxyz('(')">(</div>
+            <div class="button" onclick="clickingxyz('0')">0</div>
+            <div class="button" onclick="clickingxyz(')')">)</div>
+            <div class="button" id="blue" onclick="evalxyz()">=</div>
+        </div>
+    </div>
+    <script src="calculatorScript.js"></script>
+</body>
+
+</html>
